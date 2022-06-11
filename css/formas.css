@@ -1,0 +1,233 @@
+*{
+    background: #E5E5E5;
+}
+
+.logo{
+    height: 48px;
+    padding-left: 44px;
+    padding-top: 40px;
+}
+
+.banner{
+    margin-left: 600px;
+    padding-top: 50px;
+    height: 350px;
+    width: 350px;
+}
+
+#iniciarJuego{
+   padding: 24px;
+   position: absolute;
+   width: 317px;
+   height: 105px;
+   text-align: center;
+   left: 425px;
+   background-color: #0a3871;
+   color: #FFFFFF; 
+   border-radius: 28px;
+   border: none;
+   transition:all 1s;
+   font-size: 24px;
+   top: 550px;
+}
+
+#iniciarJuego:hover{
+    transform: scale(0.95);
+    background-color: lightblue;
+    color: #0a3871;
+}
+
+#adicionar{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 800px;
+    background-color: #E5E5E5;
+    color: #0a3871; 
+    border-radius: 28px;
+    border-color: #0a3871;
+    transition:all 1s;
+    font-size: 24px;
+    top: 550px;
+ }
+ 
+ #adicionar:hover{
+    transform: scale(0.95);
+    background-color: lightblue;
+    color: #0a3871;
+ }
+
+/*CSS del apartado Iniciar Juego*/
+
+#horca{
+    
+    margin: auto;
+    text-align: center;
+}
+
+#nuevoJuego{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 420px;
+    background-color: #0a3871;
+    color: #FFFFFF; 
+    border-radius: 28px;
+    border: none;
+    transition:all 1s;
+    font-size: 24px;
+    top: 850px;
+ }
+ 
+ #nuevoJuego:hover{
+     transform: scale(0.95);
+     background-color: lightblue;
+     color: #0a3871;
+ }
+
+ #inicio{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 800px;
+    background-color: #E5E5E5;
+    color: #0a3871; 
+    border-radius: 28px;
+    border-color: #0a3871;
+    transition:all 1s;
+    font-size: 24px;
+    top: 850px;
+ }
+ 
+ #inicio:hover{
+    transform: scale(0.95);
+    background-color: lightblue;
+    color: #0a3871;
+ }
+
+
+ /*CSS del apartado Agregar Palabra*/
+
+#guardar{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 600px;
+    background-color: #0a3871;
+    color: #FFFFFF; 
+    border-radius: 28px;
+    border: none;
+    transition:all 1s;
+    font-size: 24px;
+    top: 550px;
+ }
+ 
+ #guardar:hover{
+     transform: scale(0.95);
+     background-color: lightblue;
+     color: #0a3871;
+ }
+
+ #nuevasPalabras{
+    width: 600px;
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 425px;
+    border: none;
+    resize: none;
+    font-family: Inter;
+    font-size: 30px;
+    outline: none;
+    color: #0a3871;
+    font-weight: bold;
+ }  
+ 
+ h6{
+    position: absolute;
+    height: 18px;
+    left: 440px;
+    top: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.8;
+    line-height: 150%;
+}
+
+#iniciar{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 200px;
+    background-color: #0a3871;
+    color: #FFFFFF; 
+    border-radius: 28px;
+    border: none;
+    transition:all 1s;
+    font-size: 24px;
+    top: 550px;
+ }
+
+ #iniciar:hover{
+    transform: scale(0.95);
+    background-color: lightblue;
+    color: #0a3871;
+}
+
+#cancelar{
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    text-align: center;
+    left: 1000px;
+    background-color: #E5E5E5;
+    color: #0a3871; 
+    border-radius: 28px;
+    border-color: #0a3871;
+    transition:all 1s;
+    font-size: 24px;
+    top: 550px;
+}
+ 
+ #cancelar:hover{
+    transform: scale(0.95);
+    background-color: lightblue;
+    color: #0a3871;
+ }
+
+.piePagina{
+    height:50px;
+    line-height:50px;
+    background:#0a3871;
+    color:white;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+.piePaginaJuego{
+    height:50px;
+    line-height:50px;
+    background:#0a3871;
+    color:white;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    top: 135%;
+    width:100%;
+}

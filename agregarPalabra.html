@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ 
+<html lang="esp">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/formas.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Juego de Ahorcado</title>
+    <link rel="shortcut icon" href="./img/ahorcado.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">  
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1><img src="./img/Logo.png" class="logo" title="Logo" href="index.html"></h1>
+
+    </header>
+    
+    <main>
+
+        <section class="caja">
+            
+             <textarea type="text" id="nuevasPalabras" placeholder="Ingrese su palabra" oninput="validarTextarea(this)" style="text-transform:uppercase" required maxlength="8" title="Ingresar palabra deseada"></textarea>  
+
+        </section>
+
+        <section class="botones">
+
+            <h6 title="No se permiten más de 8 letras">&#9888 Máx. de 8 letras</h6>
+
+        <form id="btnGuardar">
+            <a >
+                <button id="guardar" type="button" onclick="agregarPalabra()"  title="Guardar palabra e iniciar juego">Guardar y jugar</button>
+            </a>           
+        </form>
+
+       
+            <a href="./juego.html">
+                <button id="iniciar" type="button" title="Iniciar juego">Iniciar juego</button>
+        </a>
+        
+        
+        <form>
+            <a href="index.html">
+                <button id="cancelar" type="button" title="Cancelar y volver al inicio">Cancelar</button>
+            </a>
+        </form>
+           
+        </section>
+    
+    </main>
+
+    <script src="./js/validarCaracteres.js"></script>
+    <script src="./js/agregarPalabra.js"></script>
+
+    <footer class="piePagina">
+        &copy KEVIN ARIAS - ORACLE NEXT EDUCATION 2022
+    </footer>
+
+
+</body>
+
+
+
+</html>
